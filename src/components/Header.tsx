@@ -1,6 +1,17 @@
+import '../App.css'
+
 const Header = () => {
   return(
-  <h1>Sheshop</h1>
+    <div>
+
+      <h1>Sheshop</h1>
+      <nav className="nav">
+        <button>HOME</button>
+        <button>PRODUCTS</button>
+        <button>CART</button>
+        <button>LOG IN</button>
+      </nav>
+    </div>
   )
 }
 
