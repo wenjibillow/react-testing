@@ -1,17 +1,19 @@
-
+import { useState } from 'react'
 import './App.css'
 
 import Header from './components/Header'
-import Products from './components/Products'
+import ProductGrid from './components/ProductGrid';
+
 
 function App() {
+  const [searchString, setSearchString] = useState<string>('')
   return (
     <div id="app">
       <header>
-        <Header />
+        <Header searchText={searchString} setSearchText={setSearchString} />
       </header>
       <main>
-        <Products />
+        <ProductGrid searchString={searchString}/>
 
       </main>
       <footer>

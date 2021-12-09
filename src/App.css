@@ -20,13 +20,34 @@ header {
 .nav button:hover {
   cursor: pointer;
 }
+.magnify-search {
+  font-size: 1em;
+  display: inline-block;
+  position: relative;
+  left: -2em;
+}
 main {
   padding: 2em;
   background-color: #fcfcfc;
-  color: #929797;
+  /* color: #929797; */
   flex-grow: 1;
 }
-
+.productCard .image {
+  background-color: #f7f3e8;
+  height: 5em;
+}
+.productCard {
+  background-color: #929797;
+  text-align: center;
+  max-width: 20em;
+  border: 0.5em;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5em;
+  padding: 1em;
+}
 footer {
   background-color: #0a1b1d;
   color: #fcfcfc;
