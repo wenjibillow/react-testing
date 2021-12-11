@@ -8,9 +8,10 @@ interface Props {
 const ProductCard = ({ products }: Props)=> {
  return( 
     <section className="productCard">
-		<div className="image"> image </div>
+		<img className="image" src={products.imgUrl} alt="" /> 
+		{/* <div className="image"> {products.imgUrl} </div> */}
 		<h3> {products.name} </h3>
-		<p> {products.price} </p>
+		<p> {products.price} kr </p>
 	</section>
    
  )

@@ -11,11 +11,17 @@ header {
   background-color: #0a1b1d;
   color: #fcfcfc;
   text-align: center;
-  padding: 1em 0em;
+  padding: 0.5em 0em;
+}
+.web-name {
+  margin: 1em;
 }
 .nav button {
   margin: 0em 1em;
   border: none;
+  background-color: #0a1b1d;
+  color: #fcfcfc;
+  text-decoration: underline;
 }
 .nav button:hover {
   cursor: pointer;
@@ -34,7 +40,7 @@ main {
 }
 .productCard .image {
   background-color: #f7f3e8;
-  height: 5em;
+  height: 12em;
 }
 .productCard {
   background-color: #929797;
