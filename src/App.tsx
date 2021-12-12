@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import "bootstrap/dist/css/bootstrap.min.css"
 
 import Header from './components/Header'
 import ProductGrid from './components/ProductGrid';
@@ -18,7 +17,7 @@ function App() {
 
       </main>
       <footer>
-        footer
+        copyright &#169;
       </footer>
     </div>
   );
