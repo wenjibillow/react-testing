@@ -1,5 +1,5 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import { Simulate } from 'react-dom/test-utils';
+import { render } from '@testing-library/react';
+//import { Simulate } from 'react-dom/test-utils';
 import Login from './Login';
 
 describe('Login component', () => {

@@ -185,8 +185,9 @@ const Login = () => {
             color="secondary"
             className={classes.loginBtn}
             onClick={handleLogin}
-            disabled={state.isButtonDisabled}>
-            Login
+            disabled={state.isButtonDisabled}
+            data-testId="login-btn">
+            Login 
           </Button>
         </CardActions>
       </Card>
